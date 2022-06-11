@@ -1,0 +1,422 @@
+#home{
+    top: 0;
+    background-image: url("../../assets/background.svg"); /* fallback */
+    background-image: url("../../assets/background.svg"), linear-gradient(180deg,#262626  48%, rgba(0,0,0,0.9) 75%); /* W3C */
+    background-repeat: no-repeat;
+    /* height: 300em; */
+    color: #fff;
+    height: 72em;   
+}
+#homeLayer1{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 10em;
+    padding-bottom: 25em;
+}
+
+#mannersHeader{
+    font-size:1em;
+}
+#manners{
+    font-size:0.9em;
+    font-weight:lighter;
+}
+
+#coloredLogo{
+    height:40px;
+}
+
+#slogan{
+    padding: 10% 0 0 5%;
+}
+
+#allShapes{
+    display: flex;
+    justify-content:center;
+    flex-grow: 1;
+    /* padding-left: 22em; */
+    position: relative;
+    right: 0rem;
+    /* margin-right: 5%; */
+
+}
+
+#allCurves{
+    position: absolute;
+    right:25em;
+    /* padding-top: 46px; */
+
+}
+#allRectangles{
+    position: absolute;
+    right:5em;
+}
+
+#curve1{
+    width:205px;
+    height:198px;
+}
+#curve2{
+    position: absolute;
+    right: 0;
+    width:122px;
+    height:161px;
+    /* padding-right:20px; */
+}
+
+.Rectangle{
+    position: absolute;
+    right:0;
+    padding-right: 0px;
+}
+
+#rectangle1{
+    z-index: 1;
+    top: 0em;
+    padding-right: 30px;
+
+}
+
+#rectangle2{
+    z-index: 2;
+    top: 4em;
+    /* padding: 0em 117px 0em 0em;
+    margin-right: -20px; */
+    padding-right: 20px;
+
+}
+#rectangle3{
+    z-index: 3;
+    top: 8em;
+    /* padding: 0em 120px 0em 0em;
+    margin-right: -30px; */
+    padding-right: 10px;
+
+}
+#rectangle4{
+    z-index: 4;
+    top: 12em;
+    /* padding: 0em 123px 0em 0em;
+    margin-right: -40px; */
+}
+
+
+.RectangleImg{
+    position: relative;
+    width: 244px;
+    height:428px;
+}
+.RectangleHeader{
+ position: absolute;
+ left: 3em;
+ width:150px;
+ /* text-align: center; */
+ top:0;
+}
+.RecHeaders{
+    font-size:17px;
+    padding: 18px 0px;
+}
+/* #header1{
+    top: 0em;
+}
+#header2{
+    top: 0em;
+}
+#header3{
+    top: 0em;
+}
+#header4{
+    top: 0em;
+} */
+.RectangleDescription{
+ position: absolute;
+ text-align: center;
+ left: 4em;
+ width:33%;
+ padding-top:10px;
+ border-top: white 1px solid;
+ font-size: 14px;
+}
+#paragraph1,#paragraph2,#paragraph3{
+    display:none;
+}
+
+#rectangle3:hover + #rectangle4{
+    animation: RecSlide 2s ease-in-out forwards;
+    transform: translate(0px,20px);
+} 
+#rectangle3:hover  #paragraph3{
+    display: block;
+}
+
+#rectangle2:hover ~ #rectangle4{
+    animation: RecSlide 2s ease-in-out forwards;
+}
+#rectangle2:hover + #rectangle3{
+    animation: RecSlide 2s ease-in-out forwards .1s;
+}
+#rectangle2:hover  #paragraph2{
+    display: block;
+}  
+
+#rectangle1:hover ~ #rectangle4{
+    animation: RecSlide 2s ease-in-out both;
+}
+#rectangle1:hover ~ #rectangle3{
+    animation: RecSlide 2s ease-in-out both .1s;
+}
+#rectangle1:hover + #rectangle2{
+    animation: RecSlide 2s ease-in-out both .2s;
+}
+#rectangle1:hover  #paragraph1{
+    display: block;
+} 
+
+@keyframes RecSlide {
+    from {transform: translate(0px,0px);}
+    to {transform: translate(0px,300px);}
+}
+
+#paragraph1,#paragraph2,#paragraph3,#paragraph4{
+    font-size:12px
+}
+#paragraph1{
+    top: 8em;
+}
+#paragraph2{
+    top: 12em;
+}
+#paragraph3{
+    top: 18em;
+}
+/* #paragraph4{
+    top: 0em;
+} */
+
+@media screen and (max-width: 1110px) {
+    #home{
+        height: 85em;   
+    }
+    #homeLayer1{
+        flex-direction: column;
+        padding-bottom: 40em;
+    }
+    #slogan {
+        text-align: center;
+        padding:0%;
+        margin-bottom: 30px;
+    }
+    #allCurves{
+        right: 55%;
+    }
+
+    #rectangle1{
+
+        margin-right: 190px;
+    
+    }
+    #rectangle2{
+
+        margin-right: 180px;
+    
+    }
+    #rectangle3{
+
+        margin-right: 170px;
+    
+    }
+    #rectangle4{
+        margin-right: 160px;
+
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    #rectangle1{
+
+        margin-right: 150px;
+    
+    }
+    #rectangle2{
+
+        margin-right: 140px;
+    
+    }
+    #rectangle3{
+
+        margin-right: 130px;
+    
+    }
+    #rectangle4{
+        margin-right: 120px;
+
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #rectangle1{
+
+        margin-right: 100px;
+    
+    }
+    #rectangle2{
+
+        margin-right: 90px;
+    
+    }
+    #rectangle3{
+
+        margin-right: 80px;
+    
+    }
+    #rectangle4{
+        margin-right: 70px;
+
+    }
+}
+@media screen and (max-width: 860px) {
+    #rectangle1{
+
+        margin-right: 70px;
+    
+    }
+    #rectangle2{
+
+        margin-right: 80px;
+    
+    }
+    #rectangle3{
+
+        margin-right: 60px;
+    
+    }
+    #rectangle4{
+        margin-right: 50px;
+
+    }
+}
+@media screen and (max-width: 799px) {
+    #allCurves {
+        right: 60%;
+    }
+    #rectangle1{
+
+        margin-right: 50px;
+    
+    }
+    #rectangle2{
+
+        margin-right: 40px;
+    
+    }
+    #rectangle3{
+
+        margin-right: 30px;
+    
+    }
+    #rectangle4{
+        margin-right: 20px;
+
+    }
+}
+/* @media screen and (max-width: 702px) {
+    #allCurves {
+        right: 65%;
+    }
+    #rectangle1{
+        margin-right: 40px;
+    }
+    #rectangle2{
+        margin-right: 30px;
+    }
+    #rectangle3{
+        margin-right: 20px;
+    }
+    #rectangle4{
+        margin-right: 10px;
+    }
+    #homeLayer1{
+        padding-bottom: 30em;
+    }
+} */
+@media screen and (max-width: 702px) {
+    #allCurves {
+        right: 60%;
+    }
+    #rectangle1{
+        margin-right: 0px;
+    }
+    #rectangle2{
+
+        margin-right: 0px;
+    
+    }
+    #rectangle3{
+
+        margin-right: 0px;
+    
+    }
+    #rectangle4{
+        margin-right: 0px;
+
+    }
+}
+@media screen and (max-width: 610px) {
+    #allCurves {
+        display: none;
+    }
+    .Rectangle {
+        right: 1.5em;
+    } 
+}
+@media screen and (max-width: 470px) {
+    #home{
+        height: 88em;   
+    }
+    /* #homeLayer1{
+        flex-direction: column;
+        padding-bottom: 40em;
+    } */
+    .Rectangle {
+        right: -2.5em;
+    } 
+}
+@media screen and (max-width: 424px) {
+    #home{
+        height: 95em;   
+    }
+}
+@media screen and (max-width: 355px) {
+    #home{
+        height: 96em;   
+    }
+    .Rectangle {
+        right: -4em;
+    } 
+}
+@media screen and (max-width: 335px) {
+    #home{
+        height: 102em;   
+    }
+}
+@media screen and (max-width: 355px) {
+    .Rectangle {
+        right: -4.5em;
+    } 
+}
+@media screen and (max-width: 287px) {
+    #home{
+        height: 105em;   
+    }
+    .Rectangle {
+        display: none;
+    } 
+}
+
+@media screen and (max-width: 287px) {
+    #home{
+        height: 110em;   
+    }
+}
+
