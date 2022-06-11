@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Appittuneity/static/css/main.ff00bca8.css",
+    "main.js": "/Appittuneity/static/js/main.0084aa26.js",
+    "static/js/787.dd945bee.chunk.js": "/Appittuneity/static/js/787.dd945bee.chunk.js",
+    "static/media/icon3.svg": "/Appittuneity/static/media/icon3.d25fd1d3efee05209c4b2afd7083cbeb.svg",
+    "static/media/icon2.svg": "/Appittuneity/static/media/icon2.f793a22901fede5ba573dd96451faced.svg",
+    "static/media/icon1.svg": "/Appittuneity/static/media/icon1.a49c342a9c8e52479da8390732d34001.svg",
+    "static/media/logo-colorful.svg": "/Appittuneity/static/media/logo-colorful.17fea84eff685967f3f0e618e5915dc2.svg",
+    "static/media/icon4.svg": "/Appittuneity/static/media/icon4.8ab70508ff52788861cc01176c09887f.svg",
+    "static/media/logo2.svg": "/Appittuneity/static/media/logo2.3f8b7677f3715b894fa711f0132c519c.svg",
+    "static/media/logo.svg": "/Appittuneity/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/background.svg": "/Appittuneity/static/media/background.cc516dc1e7cc1d73e29b.svg",
+    "static/media/logo3.svg": "/Appittuneity/static/media/logo3.34621a93e17063483438be84cff99def.svg",
+    "static/media/Curve 1.svg": "/Appittuneity/static/media/Curve 1.d154e7c0c5b802fcf2c3c1ab4679472b.svg",
+    "static/media/Curve 2.svg": "/Appittuneity/static/media/Curve 2.9dfda64eb4701c51f46f7908497ddd90.svg",
+    "static/media/Rectangle 113.svg": "/Appittuneity/static/media/Rectangle 113.5a7d170c37abaf9e0b2bc04e79bd4b12.svg",
+    "static/media/Rectangle 4.svg": "/Appittuneity/static/media/Rectangle 4.86c0b459069e918c65c5deef5cfd96d5.svg",
+    "static/media/Rectangle 2.svg": "/Appittuneity/static/media/Rectangle 2.5c6cd2057484973a85f3e47edee71700.svg",
+    "static/media/Rectangle 3.svg": "/Appittuneity/static/media/Rectangle 3.a07fbacecb7538bdbcb6c82b8ddf5dde.svg",
+    "static/media/Rectangle 1.svg": "/Appittuneity/static/media/Rectangle 1.13782839172dc2353bb83c3414b9e93c.svg",
+    "index.html": "/Appittuneity/index.html",
+    "static/media/logo1.svg": "/Appittuneity/static/media/logo1.306f4ce237090197e500ef8c56921037.svg",
+    "main.ff00bca8.css.map": "/Appittuneity/static/css/main.ff00bca8.css.map",
+    "main.0084aa26.js.map": "/Appittuneity/static/js/main.0084aa26.js.map",
+    "787.dd945bee.chunk.js.map": "/Appittuneity/static/js/787.dd945bee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff00bca8.css",
+    "static/js/main.0084aa26.js"
+  ]
+}
